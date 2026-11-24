@@ -11,6 +11,9 @@
     "bot:bybit": "tsx bot.ts bybit",
     "start:bybit": "node dist/bot.js bybit",
     "stat:bybit": "tsx src/stat/run_balance_pnl.ts bybit > stat_bybit.txt 2>&1",
+    "bot:bingx": "tsx bot.ts bingx",
+    "start:bingx": "node dist/bot.js bingx",
+    "stat:bingx": "tsx src/stat/run_balance_pnl.ts bingx > stat_bingx.txt 2>&1",
     "build": "esbuild bot.ts --bundle --platform=node --format=esm --packages=external --outdir=dist",
     "type": " tsc --noEmit"
   },
